@@ -1,0 +1,138 @@
+* {
+    margin: 0%;
+}
+
+.logo1 {
+    margin: 1.2%;
+}
+
+.logo2 {
+    margin: 1.5%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    height: 8%;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid black;
+}
+
+.mainbox {
+    display: flex;
+}
+
+.texting {
+    height: 50rem;
+    width: 60%;
+    background-color: rgb(225, 225, 255);
+    border-right: 10px grey ;
+}
+
+.feed {
+    display: flex;
+    width: 40%;
+    background-color: rgb(255, 225, 225);
+    justify-content: center;
+    padding: 2rem;
+}
+
+.typecard {
+    height: 21rem;
+    width: 40rem;
+    background-color: rgb(255, 255, 255);
+    border: .1px solid grey;
+    border-radius: 5%;
+    margin-top: 10rem;
+    margin-left: 6rem;
+
+}
+
+.textareaa {
+    margin-top: 2%;
+    padding: 2%;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.textareaa textarea {
+    padding: 2%;
+    border: 0;
+    resize: none;
+    border-radius: 2%;
+}
+
+
+.profile {
+    height: fit-content;
+    width: fit-content;
+    background-color: rgb(255, 255, 255);
+}
+
+.post {
+    position: relative;
+    left: 80%;
+    border-radius: 30%;
+    padding: 1%;
+    background-color: rgb(56, 56, 255);
+    width: fit-content;
+    height: fit-content;
+
+}
+
+.post:hover {
+    cursor: pointer;
+}
+
+.post h2 {
+    color: rgb(255, 255, 255);
+}
+
+.feedc {
+    border-radius: 5%;
+    width: 30rem;
+    height: 11rem;
+    background-color: rgb(255, 255, 255);
+    padding: .5rem;
+}
+
+.feedcard {
+    width: 29rem;
+    height: 9rem;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+
+.top {
+    margin-top: 1rem;
+    width: 24rem;
+    display: flex;
+    justify-content: space-between;
+    margin-left: .5rem;
+}
+
+.edit-delete {
+    width: 5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.edit-delete:hover {
+    cursor: pointer;
+}
+.texte{
+    padding: .5rem;
+    /* border: 1px solid grey;*/
+    border-radius: 3%;
+    height: 6rem;
+    width: 25rem;
+    /* background-color: rgb(234, 224, 223);*/
+}
+.like-comment{
+    /* margin-top:.2rem;*/
+    height: 1rem;
+    width: 5rem;
+    display: flex;
+    justify-content: space-around;
+}
